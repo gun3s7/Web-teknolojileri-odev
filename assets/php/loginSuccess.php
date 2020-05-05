@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     
         <!--Custom Styles-->
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="../css/style.css">
     
         <!--Thank you Pexels for free wallpapers
             sources:
@@ -26,14 +26,16 @@
     <nav class="container-fluid">
         <div class="row">
             <div class="col-4 logo">
-                <p>Oğuzhan Güneş</p>
+                <a href="../../index.html">
+                    <p>Oğuzhan Güneş</p>
+                </a>
             </div>
             <div class="col-6 nav-links">
                 <ul>
                     <li><a href="hometown.html">Memleket</a></li>
                     <li><a href="contact.html">İletişim</a></li>
                     <li><a href="cv.html">Özgeçmiş</a></li>
-                    <li><a href="index.html">Hakkımda</a></li>
+                    <li><a href="../../index.html">Hakkımda</a></li>
                 </ul>
             </div>
             <div class="burger col-2">
@@ -43,10 +45,25 @@
             </div>
         </div>
     </nav>
+    <main class="container-fluid main-form success">
+        <div class="row">
+            <div class="col-12">  
+                <div>
+                <p class="text-center">
+                    <?php if($_POST['userName']=='g181210068@sakarya.edu.tr'&& $_POST['password']=='123'){
+                        echo 'Hoşgeldin g181210068';
+                    }else{
+                        header("Location: ../html/login.html");
+                    }?>
+                    </p>        
+                </div>
+            </div>
+        </div>
+    </main>
     <footer class="container">
         <div class="row">
             <div class="col-12 col-md-3">
-                <a href="index.html">Hakkımda</a>
+                <a href="../../index.html">Hakkımda</a>
             </div>
             <div class="col-12 col-md-3">
                 <a href="cv.html">Özgeçmiş</a>
@@ -65,6 +82,6 @@
         </div>
     </footer>
 
-    <script src="assets/js/scripts.js"></script>
+    <script src="../js/scripts.js"></script>
 </body>
 </html>

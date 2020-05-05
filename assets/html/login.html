@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>İletişim | Oğuzhan GÜNEŞ</title>
+        <title>Giriş Yap | Oğuzhan GÜNEŞ</title>
     
         <!--Fonts-->
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
@@ -15,7 +15,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     
         <!--Custom Styles-->
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="../css/style.css">
     
         <!--Thank you Pexels for free wallpapers
             sources:
@@ -26,14 +26,16 @@
     <nav class="container-fluid">
         <div class="row">
             <div class="col-4 logo">
-                <p>Oğuzhan Güneş</p>
+                <a href="../../index.html">
+                    <p>Oğuzhan Güneş</p>
+                </a>
             </div>
             <div class="col-6 nav-links">
                 <ul>
-                    <li><a href="SignIn.html">Giriş</a></li>
                     <li><a href="hometown.html">Memleket</a></li>
+                    <li><a href="contact.html">İletişim</a></li>
                     <li><a href="cv.html">Özgeçmiş</a></li>
-                    <li><a href="index.html">Hakkımda</a></li>
+                    <li><a href="../../index.html">Hakkımda</a></li>
                 </ul>
             </div>
             <div class="burger col-2">
@@ -43,19 +45,33 @@
             </div>
         </div>
     </nav>
+    <main class="container-fluid main-form success">
+        <div class="row">
+            <div class="col-12">  
+                <div>
+                    <h1>GİRİŞ YAP</h1>
+                    <form action="../php/loginSuccess.php" method="post">
+                        <input type="text" placeholder="Kullanıcı Adı" name="userName">
+                        <input type="password" placeholder="Parola" name="password">
+                        <input class="buttons" type="submit" value="Giriş">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
     <footer class="container">
         <div class="row">
             <div class="col-12 col-md-3">
-                <a href="index.html">Hakkımda</a>
+                <a href="../../index.html">Hakkımda</a>
             </div>
             <div class="col-12 col-md-3">
                 <a href="cv.html">Özgeçmiş</a>
             </div>
             <div class="col-12 col-md-3">
-                <a href="hometown.html">Memleket</a>
+                <a href="contact.html">İletişim</a>
             </div>
             <div class="col-12 col-md-3">
-                <a href="signIn.html">Giriş</a>
+                <a href="hometown.html">Memleket</a>
             </div>
         </div>
         <div class="row">
@@ -65,6 +81,6 @@
         </div>
     </footer>
 
-    <script src="assets/js/scripts.js"></script>
+    <script src="../js/scripts.js"></script>
 </body>
 </html>

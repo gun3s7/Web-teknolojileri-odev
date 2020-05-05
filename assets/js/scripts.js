@@ -1,4 +1,4 @@
-//type effect
+//typing effect
 var i = 0;
 var j = 0;
 var txt ='MERHABA, BEN OĞUZHAN GÜNEŞ.';
@@ -19,7 +19,6 @@ function typeWriter2() {
     j++;
     setTimeout(typeWriter2, speed);
   }
-  
 }
 
 setTimeout(typeWriter, speed);
@@ -32,9 +31,26 @@ var navLinks = document.querySelector('.nav-links');
 burger.addEventListener('click', layoutHandler);
 
 function layoutHandler(){
-    if(navLinks.style.display == "block"){
-      navLinks.style.display = "none";
-    }else{
-      navLinks.style.display = "block";
-    }
+  if(navLinks.style.display == "block"){
+    navLinks.style.display = "none";
+  }else{
+    navLinks.style.display = "block";
+  }
+}
+var x;
+
+//contact form control
+function submitForm(){
+  var name = document.querySelector('input[name="name"]');
+  var surname = document.querySelector('input[name="surname"]');
+  var email = document.querySelector('input[name="email"]');
+  var select = document.querySelector('select[name="select"]');
+  var message = document.querySelector('textarea[name="message"]');
+  
+  if(name.value == "" || surname.value == "" || email.value == "" || select.value == "empty" || message.value == ""){
+    alert("Form elemanları boş olamaz. Lütfen formu dikkatli bir şekilde doldurunuz.");
+    return false;
+  }else{
+    return true;
+  }
 }

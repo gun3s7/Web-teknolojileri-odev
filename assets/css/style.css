@@ -34,6 +34,15 @@ nav{
     text-align: center;
 }
 
+.logo a{
+    color: #fafada;
+}
+
+.logo a:hover{
+    text-decoration: none;
+    color: #fafada;
+}
+
 .nav-links{
     position: absolute;
     right: 5%;
@@ -100,7 +109,7 @@ header{
     padding-bottom: 20px;
 }
 
-.main-header-personal-info{
+.main-header{
     color: #fafada;
     text-align: center;
     margin: 50px 0;
@@ -112,6 +121,89 @@ header{
 
 .main-paragraph-personal-info{
     text-align: center;
+}
+
+.main-form{
+    background-image: url('../img/pexels-photo-2653362-new.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0 80px 0;
+}
+
+.main-form > div{
+    background-color: #fafada;
+    width: 50%;
+    margin: auto;
+    border-radius: 5px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.main-form > div > div > div{
+    width: 70%;
+    margin: auto;
+}
+
+.main-form h1{
+    background-color: #1f2025;
+    color: #fafada;
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+    padding: 20px 0;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.main-form input{
+    width: 100%;
+    padding: 10px 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.contact-input{
+    width: 49% !important;
+}
+
+.buttons{
+    background-color: #1f2025;
+    color: #fafada;
+    border: 1px solid transparent;
+    transition: 0.5s ease;
+}
+
+.buttons:hover{
+    background-color: #fce03f;
+    color: #1f2025;
+    border: 1px solid #1f2025;
+}
+
+.main-form select{
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.main-form textarea{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px 10px;
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+#message-successful{
+    text-align: center;
+}
+
+.success{
+    padding-bottom: 350px;
 }
 
 footer{
@@ -173,5 +265,9 @@ footer p{
     .burger{
         display: block;
         cursor: pointer;
+    }
+
+    .main-form > div{
+        width: 80%;
     }
 }
