@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Giriş Yap | Oğuzhan GÜNEŞ</title>
+        <title>İletişim | Oğuzhan GÜNEŞ</title>
     
         <!--Fonts-->
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
@@ -32,9 +32,9 @@
             </div>
             <div class="col-6 nav-links">
                 <ul>
-                    <li><a href="login.html">Giriş</a></li>
-                    <li><a href="hometown.html">Memleket</a></li>
-                    <li><a href="cv.html">Özgeçmiş</a></li>
+                    <li><a href="../html/login.html">Giriş</a></li>
+                    <li><a href="../html/hometown.html">Memleket</a></li>
+                    <li><a href="../html/cv.html">Özgeçmiş</a></li>
                     <li><a href="../../index.html">Hakkımda</a></li>
                 </ul>
             </div>

@@ -32,9 +32,9 @@
             </div>
             <div class="col-6 nav-links">
                 <ul>
-                    <li><a href="hometown.html">Memleket</a></li>
-                    <li><a href="contact.html">İletişim</a></li>
-                    <li><a href="cv.html">Özgeçmiş</a></li>
+                    <li><a href="../html/hometown.html">Memleket</a></li>
+                    <li><a href="../html/contact.html">İletişim</a></li>
+                    <li><a href="../html/cv.html">Özgeçmiş</a></li>
                     <li><a href="../../index.html">Hakkımda</a></li>
                 </ul>
             </div>

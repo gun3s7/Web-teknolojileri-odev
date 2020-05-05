@@ -54,3 +54,5 @@ function submitForm(){
     return true;
   }
 }
+
+console.log(window.innerWidth);
