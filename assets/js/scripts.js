@@ -37,7 +37,7 @@ function layoutHandler(){
     navLinks.style.display = "block";
   }
 }
-var x;
+
 
 //contact form control
 function submitForm(){
@@ -54,5 +54,3 @@ function submitForm(){
     return true;
   }
 }
-
-console.log(window.innerWidth);
