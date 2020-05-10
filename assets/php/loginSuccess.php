@@ -44,11 +44,11 @@
         </nav>
         <main class="container-fluid main-form form">
             <div class="row">
-                <div class="col-8 offset-2">  
+                <div class="col-12 offset-2 col-md-8 offset-md-2">  
                     <div class="success">
                     <p class="text-center">
                         <?php if($_POST['userName']=='g181210068@sakarya.edu.tr'&& $_POST['password']=='123'){
-                            echo 'Hoşgeldin g181210068';
+                            echo 'Hoş geldin g181210068';
                         }else{
                             header("Location: ../html/login.html");
                         }?>

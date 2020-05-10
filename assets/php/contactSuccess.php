@@ -44,9 +44,9 @@
         </nav>
         <main class="container-fluid main-form form">
             <div class="row">
-                <div class="col-8 offset-2">  
+                <div class="col-12 offset-2 col-md-8 offset-md-2">  
                     <div class="success">
-                        <p class="text-center">Mesajınız başarılı bir şekilde gönderildi.<br> Mesaj önizlemesi;</p>
+                        <p class="text-center">Mesajınız başarılı bir şekilde gönderildi.<br> Mesaj ön izlemesi:</p>
                         <p>İsim: <?php echo $_POST['name'];?></p>
                         <p>Soyisim: <?php echo $_POST['surname'];?></p>
                         <p>E-posta: <?php echo $_POST['email'];?></p>

@@ -24,13 +24,9 @@ nav{
     top: 0;
 }
 
-.logo a{
+.logo a, .logo a:hover{
     color: #fafada;
-}
-
-.logo a:hover{
     text-decoration: none;
-    color: #fafada;
 }
 
 .nav-links{
@@ -225,8 +221,13 @@ table th{
     color: #fafada;
 }
 
-table td{
+table td, table a{
     color: rgba(250, 250, 218, 0.8)
+}
+
+table a:hover{
+    color: #fce03f;
+    transition: 0.5s ease;
 }
 
 footer{

@@ -1,3 +1,4 @@
+//slider
 var slide = document.getElementsByClassName('slide');
 var i = 0;
 
